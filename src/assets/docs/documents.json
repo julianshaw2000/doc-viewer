@@ -1,11 +1,34 @@
 [
-  { "filename": "BoardPresentation.pdf", "title": "Board Presentation" },
-  { "filename": "BoardSchedule_v2.pdf", "title": "Board Schedule v2" },
-  { "filename": "D3_Industry_Default_Values.pdf", "title": "D3 Industry Default Values" },
-  { "filename": "D3_Tolerance_Workshop_Template.pdf", "title": "D3 Tolerance Workshop Template" },
-  { "filename": "DFARS_Compliance_Feature_Set.pdf", "title": "DFARS Compliance Feature Set" },
-  { "filename": "Tungsten_Platform_Spec_v2_2_US_Edition.pdf", "title": "Tungsten Platform Spec v2.2 US Edition" },
-  { "filename": "Tungsten_Platform_Spec_v2_3_US_Edition.pdf", "title": "Tungsten Platform Spec v2.3 US Edition" },
-  { "filename": "Tungsten_Support_Systems_Register.pdf", "title": "Tungsten Support Systems Register" },
-  { "filename": "Tungsten_Documents_References_Register.pdf", "title": "Tungsten Documents References Register" }
+  {
+    "filename": "BoardSchedule_v2.pdf",
+    "title": "Board Schedule v2"
+  },
+  {
+    "filename": "D3_Industry_Default_Values.pdf",
+    "title": "D3 Industry Default Values"
+  },
+  {
+    "filename": "D3_Tolerance_Workshop_Template.pdf",
+    "title": "D3 Tolerance Workshop Template"
+  },
+  {
+    "filename": "DFARS_Compliance_Feature_Set.pdf",
+    "title": "DFARS Compliance Feature Set"
+  },
+  {
+    "filename": "Tungsten_Platform_Spec_v2_2_US_Edition.pdf",
+    "title": "Tungsten Platform Spec v2.2 US Edition"
+  },
+  {
+    "filename": "Tungsten_Platform_Spec_v2_3_US_Edition.pdf",
+    "title": "Tungsten Platform Spec v2.3 US Edition"
+  },
+  {
+    "filename": "Tungsten_Support_Systems_Register.pdf",
+    "title": "Tungsten Support Systems Register"
+  },
+  {
+    "filename": "Tungsten_Documents_References_Register.pdf",
+    "title": "Tungsten Documents References Register"
+  }
 ]
