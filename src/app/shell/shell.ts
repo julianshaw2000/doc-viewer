@@ -17,15 +17,13 @@ export class Shell implements OnInit {
   selectedDoc = signal<DocEntry | null>(null);
   pdfSrc = signal<string | null>(null);
   sidebarCollapsed = signal(false);
-  username: string | null;
+  showIndex = signal(true);
 
   constructor(
     private documentService: DocumentService,
     private auth: AuthService,
     private router: Router
-  ) {
-    this.username = this.auth.getUsername();
-  }
+  ) {}
 
   ngOnInit(): void {
     this.documentService.getDocuments().subscribe({
@@ -37,6 +35,13 @@ export class Shell implements OnInit {
   onDocumentSelected(doc: DocEntry): void {
     this.selectedDoc.set(doc);
     this.pdfSrc.set(`assets/docs/${doc.filename}`);
+    this.showIndex.set(false);
+  }
+
+  onShowIndex(): void {
+    this.selectedDoc.set(null);
+    this.pdfSrc.set(null);
+    this.showIndex.set(true);
   }
 
   onToggleSidebar(): void {

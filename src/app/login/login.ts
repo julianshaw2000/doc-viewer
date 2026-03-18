@@ -10,7 +10,6 @@ import { AuthService } from '../services/auth.service';
   styles: ``,
 })
 export class Login {
-  username = '';
   password = '';
   showPassword = signal(false);
   error = signal<string | null>(null);
@@ -24,26 +23,20 @@ export class Login {
   onSubmit(): void {
     this.error.set(null);
 
-    if (!this.username.trim() || !this.password.trim()) {
-      this.error.set('Please enter both username and password.');
+    if (!this.password.trim()) {
+      this.error.set('Please enter the password.');
       return;
     }
 
     this.loading.set(true);
-    this.auth.login(this.username, this.password).subscribe({
-      next: (success) => {
-        this.loading.set(false);
-        if (success) {
-          this.router.navigate(['/']);
-        } else {
-          this.error.set('Invalid username or password.');
-        }
-      },
-      error: () => {
-        this.loading.set(false);
-        this.error.set('An error occurred. Please try again.');
-      }
-    });
+    const success = this.auth.login(this.password);
+    this.loading.set(false);
+
+    if (success) {
+      this.router.navigate(['/']);
+    } else {
+      this.error.set('Incorrect password.');
+    }
   }
 
   togglePassword(): void {
