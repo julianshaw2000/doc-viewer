@@ -1,0 +1,32 @@
+<div class="h-full overflow-hidden bg-gray-50/50">
+  @if (pdfSrc()) {
+    <ngx-extended-pdf-viewer
+      [src]="pdfSrc()!"
+      [height]="'100%'"
+      [showHandToolButton]="true"
+      [showPresentationModeButton]="true"
+      [showDownloadButton]="true"
+      [showPrintButton]="true"
+      [showSecondaryToolbarButton]="true"
+      [showRotateButton]="true"
+      [showScrollingButtons]="true"
+      [showSpreadButton]="true"
+      [showZoomButtons]="true"
+      [zoom]="'page-width'"
+      [textLayer]="true"
+    ></ngx-extended-pdf-viewer>
+  } @else {
+    <div class="h-full flex items-center justify-center">
+      <div class="text-center">
+        <div class="mx-auto h-20 w-20 rounded-2xl bg-gray-100 flex items-center justify-center mb-5">
+          <svg class="h-10 w-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-medium text-gray-600">No document selected</h3>
+        <p class="mt-2 text-sm text-gray-400 max-w-xs mx-auto">Choose a document from the sidebar to view it here.</p>
+      </div>
+    </div>
+  }
+</div>
