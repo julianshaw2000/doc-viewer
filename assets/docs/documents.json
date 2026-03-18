@@ -1,34 +1,62 @@
 [
   {
     "filename": "BoardSchedule_v2.pdf",
-    "title": "Board Schedule v2"
+    "title": "Board Schedule v2",
+    "description": "Delivery roadmap and milestone schedule for the Tungsten Supply Chain Compliance Platform, starting March 2026."
   },
   {
     "filename": "D3_Industry_Default_Values.pdf",
-    "title": "D3 Industry Default Values"
+    "title": "D3 Industry Default Values",
+    "description": "Cross-validation default tolerance values for compliance lead review during Phase 1 pre-build."
   },
   {
     "filename": "D3_Tolerance_Workshop_Template.pdf",
-    "title": "D3 Tolerance Workshop Template"
+    "title": "D3 Tolerance Workshop Template",
+    "description": "Workshop template for defining cross-validation tolerance thresholds during Phase 1 pre-build."
   },
   {
     "filename": "DFARS_Compliance_Feature_Set.pdf",
-    "title": "DFARS Compliance Feature Set"
+    "title": "DFARS Compliance Feature Set",
+    "description": "Complete feature specification for DFARS regulatory compliance capabilities within the Tungsten platform."
   },
   {
     "filename": "Tungsten_Platform_Spec_v2_2_US_Edition.pdf",
-    "title": "Tungsten Platform Spec v2.2 US Edition"
+    "title": "Tungsten Platform Spec v2.2 US Edition",
+    "description": "Revised project specification (v2.2) for the Tungsten Supply Chain Compliance Platform, US Edition."
   },
   {
     "filename": "Tungsten_Platform_Spec_v2_3_US_Edition.pdf",
-    "title": "Tungsten Platform Spec v2.3 US Edition"
+    "title": "Tungsten Platform Spec v2.3 US Edition",
+    "description": "Latest project specification (v2.3) covering architecture, compliance engine, and audit dossier requirements."
   },
   {
     "filename": "Tungsten_Support_Systems_Register.pdf",
-    "title": "Tungsten Support Systems Register"
+    "title": "Tungsten Support Systems Register",
+    "description": "Register of all support systems, integrations, and infrastructure components for the Tungsten platform."
   },
   {
     "filename": "Tungsten_Documents_References_Register.pdf",
-    "title": "Tungsten Documents References Register"
+    "title": "Tungsten Documents & References Register",
+    "description": "Master index of all project documents, references, and external standards referenced by the platform."
+  },
+  {
+    "filename": "architecture_diagram.pdf",
+    "title": "Architecture Diagram",
+    "description": "High-level system architecture diagram showing platform components, data flow, and integration points."
+  },
+  {
+    "filename": "dfars_block_diagram.pdf",
+    "title": "DFARS Block Diagram",
+    "description": "Block diagram illustrating the DFARS compliance verification workflow and decision logic."
+  },
+  {
+    "filename": "gantt_chart.pdf",
+    "title": "Gantt Chart",
+    "description": "Project timeline with phased delivery milestones, dependencies, and resource allocation."
+  },
+  {
+    "filename": "support_systems_diagram.pdf",
+    "title": "Support Systems Diagram",
+    "description": "Visual map of support systems, external service integrations, and their interconnections."
   }
 ]
